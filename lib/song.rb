@@ -44,6 +44,7 @@ class Song
       if hash[artist]
         hash[key] += 1
       else hash[key] = 1
+      end
     end
   end
 end
