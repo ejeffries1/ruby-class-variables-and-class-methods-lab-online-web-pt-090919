@@ -42,8 +42,8 @@ class Song
     hash = {}
     @@artists.each do |artist|
       if hash[artist]
-        hash[key] += 1
-      else hash[key] = 1
+        hash[artist] += 1
+      else hash[artist] = 1
       end
     end
     hash
